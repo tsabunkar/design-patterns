@@ -82,3 +82,12 @@
   - Visitor
 
 ---
+
+# Anti-pattern:
+
+- Pattern which is supposed to be bad
+- example: God Object (A God object is an object that knows too much or does too much)
+- Single Responsibility Principle --> Antipattern is God Object. [Thus, SRP recommends to if a class is having more than one responsibilities then just create a new class which can manage those responsibilities]
+- To Tackle this God Object Anti-Pattern : A common programming technique is to separate a large problem into several smaller problems and create solutions for each of them.
+
+---

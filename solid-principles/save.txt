@@ -1,0 +1,2 @@
+1: I am exicited today to learn Design Patterns
+2: I am solving daily one competitive problem
