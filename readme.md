@@ -6,6 +6,14 @@
 - Patterns are often confused with algorithms, because both concepts describe typical solutions to some known problems
 - While an algorithm always defines a clear set of actions that can achieve some goal, a pattern is a more high-level description of a solution.
 - NOTE : The code of the same pattern applied to two different programs may be different.
+- In General there are 23 Design Patterns, ever software engineer should know.
+- Design patterns can speed up the development process by providing tested, proven development paradigms.
+- Design patterns are common architectural approaches
+- Popularized by the Gang of Four book (1994) ==> Element of Reusable Object-Oriented Software
+- Translated to many lang - C#, C++, Java, JS
+- Universally relevant
+  - Internalized in some programming langages.
+  - Libraries
 
 ---
 
@@ -63,6 +71,7 @@
 - Behavioral Structural patterns are :
   - Chain of Responsibility
   - Command
+  - Interpreter
   - Iterator
   - Mediator
   - Memento
@@ -71,3 +80,5 @@
   - Strategy
   - Template Method
   - Visitor
+
+---
