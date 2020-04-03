@@ -24,3 +24,10 @@
 - SRP supports ==> Separation Of Concerns (divide a a huge code to small part which are related)
 
 ---
+
+# Open Close Principle
+
+- Objects are open for extension, closed for modification
+- meaning : objects are allowed to perform - inheritance, extends, etc.. but Objects are close for modifiying/adding the exisiting methods or properties of the existing class - based on new requirement which will come in furture point of time.
+- Exisiting class should not be modified (i.e- writing a patch code to incorporate patch logic for particularly new requirement/specification bcoz- this new requirements/spec will ke adding infinitely in future point time)
+- Better approach is using inhertance, or some sort of extending the functionality
