@@ -41,3 +41,23 @@
 - Ex- useIt() function which take instance of Base class- Rectangle class works fine, but when useIt() take the instance of derived class - Square Class(which had extended from base class- Rectangle) functionality fails.
 
 ---
+
+# Interface segregation principle (ISP)
+
+- js doesnot have interfaces :)
+- we can make use the normal class as interface by checking the constructor name
+- ISP: no client should be forced to depend on methods it does not use.
+- ISP splits interfaces that are very large into smaller and more specific ones so that clients will only have to know about the methods that are of interest to them. Such shrunken interfaces are also called role interfaces.
+- ISP states: We have to segragte or split-up interfaces into different parts so that client/users don't implement more than what they need.
+- ISP is intended to keep a system decoupled and thus easier to refactor, change, and redeploy.
+- ISP similar to the High Cohesion Principle of GRASP(General Responsibility Assignment Software Patterns)
+
+---
+
+# Principle of Least Suprise or Principle of Least Astonishment
+
+- This principle applies to: applies to user interface and software design
+- It States : In interface design, always do the least surprising thing.
+- the principle means that a component of a system should behave in a way that most users will expect it to behave; the behavior should not astonish or surprise users.
+
+---
