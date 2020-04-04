@@ -29,13 +29,25 @@
 
 - The most basic and low-level patterns are often called idioms.
 - The most universal and high-level patterns are architectural patterns.
+- Design patterns are typically split into 3 categories this is called Gamma Categorization after Erich Gamma one of GoF Author.
 - 3 patterns :
   - Creational patterns
   - Structural patterns
   - Behavioral patterns
-- Creational patterns : provide object creation mechanisms that increase flexibility and reuse of existing code.
-- Structural patterns : explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
-- Behavioral patterns : take care of effective communication and the assignment of responsibilities between objects.
+- Creational patterns :
+  - provide object creation mechanisms that increase flexibility and reuse of existing code.
+  - Deals with the creation (construction of objects)
+  - Explicit (constructor) v/s implicit (D.I, reflection, etc)
+  - Wholesale (single statement) v/s piecewise (step-by-step)
+- Structural patterns :
+  - explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
+  - Concerned with the structure (ex- class members)
+  - Manay patterns are wrappers that mimc the underlying class interface
+  - Stress the importance of good API design
+- Behavioral patterns :
+  - take care of effective communication and the assignment of responsibilities between objects.
+  - They are all different; no central theme.
+  - They are unique in there ways.
 
 ---
 

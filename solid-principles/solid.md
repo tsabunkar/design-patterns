@@ -72,3 +72,18 @@
 - the principle means that a component of a system should behave in a way that most users will expect it to behave; the behavior should not astonish or surprise users.
 
 ---
+
+# Summary
+
+- Single Responsibility Principle
+  - A class should only have one reason to change.
+  - Separation of concerns - different classes handling different, independent tasks/problems
+- Open-Closed Principle
+  - Classes should be open for extension but closed for modification
+- Liskov Substition Principle
+  - You should be able to substitute a base type for a subtype
+- Interface Segregation Principle
+  - Don't put too much into an interface; split into spearate interfaces
+  - YAGNI- Your Ain't Going to Need it
+- Dependency Inversion Principle
+  - High-level modules should not depend upon low-level ones; use abstraction instead
