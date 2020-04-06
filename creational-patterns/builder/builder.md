@@ -13,3 +13,12 @@
 # Builder Facets
 
 - Some times a simple builder is not sufficient to build an object, we require groups builders. Then how do these builders interact with each other ? ==> using builder-facets
+
+---
+
+# Summary
+
+- A builder is a separate component for building an object.
+- Can either give builder an initializer or return it via a static function.
+- To make builder fluent, return self.
+- Different facets of an object can be built with different builders working in tandem (together) via a base class.
