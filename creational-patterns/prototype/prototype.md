@@ -12,5 +12,9 @@
 # Prototype
 
 - A partially or fully initialized object that you copy (clone) and make use of.
+- To implement a protoype, partially construct an object and store it somewhere.
+- Deep Copy the prototype.
+- Customize the resulting instance.
+- A factory provides a convenient API for using prototypes.
 
 ---
