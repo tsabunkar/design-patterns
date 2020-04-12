@@ -103,3 +103,5 @@
 - To Tackle this God Object Anti-Pattern : A common programming technique is to separate a large problem into several smaller problems and create solutions for each of them.
 
 ---
+
+NOTE: In js we cannot have private methods.
