@@ -1,6 +1,10 @@
 # Iterator Design Pattern
 
 - An object that facilitates the traversal of a particular data structure.
+- An iterator specified how you can traverse an object
+- Stateful iterators cannnot be recursive
+- yield allows for much more succinct iteration
+  (succinct -> briefly and clearly expressed)
 
 ---
 
@@ -18,3 +22,5 @@
     - The value being iterated
     - The done flag indicating wheather iteration is finished
   - An iterator object itself can also be made iterable.
+
+---
