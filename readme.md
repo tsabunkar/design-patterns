@@ -105,3 +105,83 @@
 ---
 
 NOTE: In js we cannot have private methods.
+
+---
+
+# Summary
+
+## Creational Patterns
+
+- Builder
+  - Separate component for when object construction gets too complicated.
+  - Can create mutually cooperating sub-builders
+  - Often has fluent interface
+- Factories
+  - Factory method more expressive than constructor
+  - A separate class with factory method is a Facotry
+  - Class hierarchies can have corresponding hirerarchies of factories (Abstract Factory)
+- Prototytype
+  - Creation of object from an existing object
+  - Requires either explicit deep copy or copy through serialization
+  - Additional work required to preserve type
+- Singleton
+  - When you need to ensure just a single instance exists
+  - Can return same object from constructor on every call
+  - Direct dependence on a Singleton is dangerous
+
+## Structural Patterns
+
+- Adapater
+  - Converts the interface you get to the interface you need.
+- Bridge
+  - Decopule abstraction from implementation
+- Composite
+  - Allows client to treat individual objects and componsitions of objects uniformly
+- Decorator
+  - Attach additional repsonsibilites to object without modifiying those objects or inheriting from them
+  - Decorators are composable with each other
+- Facade
+  - Provide a single unified interface over a set of systems/interfaces
+- Flyweight
+  - Memory saving technique
+  - Efficently support very lalrge numbers of similar objects
+- Proxy
+  - Provide a surrogate object that forwards calls to the real object while performing additional functions
+  - Ex: access acontrol, communication, logging etc
+
+## Behavioral Patterns
+
+- Chain of Responsibility
+  - Allow components to process information/events in a chain
+  - Each element in the chain refers to next element
+  - Make a list and go through it
+- Command
+  - Encapsulate a request into a separate object
+  - Good for audit, replay, undo/redo
+  - Part of CQS/CQRS
+- Interpreter
+  - Transform textual input into object-oriented structures
+  - Used by interpreters, compilers, static analysis tools, etc
+  - Compiler Theory is a separate branch of computer science
+- Iterator
+  - Provide an interface for accessing elements of an aggregate object
+  - Objects can be made iterable (for loop)
+- Mediator
+  - Provides mediation services between two objects
+  - Ex: message passing, chat room
+- Memento
+  - Yields tokens representing system states
+  - Tokens do not allow direct manipulation, but can be used in appropriate APIs
+- Observer
+  - Allows notifications of changes/happenings in a component
+- State
+  - We model systems by having one of a possible state and transitions between these states
+  - Such a system is called a state machine
+  - Special framworks exists to orchestrate state machines
+- Strategy & Template Method
+  - Both define a skeleton algo with details filled in by implementor
+  - Strategy uses oridinary composition, template method uses inheritance
+- Vistior
+  - Allows non-intrusive addition of functionality to hirearchies
+
+---
